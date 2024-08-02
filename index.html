@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Angel Nerozzi </title> 
+ <link rel="icon" href="images/AN_LOGO_BLOG.ico   " type="image/ico"> 
+
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #f5f5f5;
+            padding: 1em 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            font-weight: 300;
+        }
+        nav {
+            background-color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 1em;
+            font-weight: 300;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden; /* Para ocultar el texto que se desborda durante la animación */
+        }
+        article h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+            font-weight: 400;
+        }
+        article p {
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        footer {
+            background-color: #f5f5f5;
+            color: #555;
+            text-align: center;
+            padding: 1em 0;
+            position: auto;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #eee;
+        }
+
+        /* Estilo para el efecto de escritura */
+        .typing-effect {
+            animation: typing 2s steps(40, end);
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .15em solid #333;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+    <script>
+        // Función para agregar la clase "typing-effect" a los artículos al pasar el ratón por encima
+        function addTypingEffect(article) {
+            article.classList.add("typing-effect");
+        }
+
+        // Función para eliminar la clase "typing-effect" de los artículos al quitar el ratón
+        function removeTypingEffect(article) {
+            article.classList.remove("typing-effect");
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1> Angel Nerozzi </h1>
+    </header>
+
+    <nav>
+        <a href="index.html"> Talks </a>
+        <a href="aboutme.html"> About me </a>
+        
+    </nav>
+
+    <main>
+         <article onclick="window.location.href='mymind.html'" onmouseover="addTypingEffect(this)" onmouseout="removeTypingEffect(this)">
+            <h2> My mind, My world and my Life </h2>
+            <p> My name is Angel Nerozzi, for today’s date I am a young man of 20 years old, I am passionate about many things the truth, but I have my favorites.</p> 
+
+        <p> I like to think that there is always a solution for everything, even for the biggest adversities, I like to believe that technology together with the business world of disruptive entrepreneurship can make the world a better place. </p> 
+
+             <p> If I could describe myself in one sentence it would be something like: An eager every day to discover, investigate, learn and know something new. </p> 
+
+</p>In this blog, I plan to write all the thoughts I may have that involve learning every day from the best companies, the development of new technologies and anything that involves adventure or risk at all. 
+      </p> 
+
+<p>Welcome to my world, my greatest satisfaction can be knowing that as I do this, you will enjoy every research, thought and everything that can be published here. Thank you very much for your attention. </p> 
+
+
+              
+             
+        </article>
+
+         <article onclick="window.location.href='analoguemachine.html'" onmouseover="addTypingEffect(this)" onmouseout="removeTypingEffect(this)">
+<h2> The analogue revolution at the dawn of machine learning </h2>
+            <p> In a world where artificial intelligence (AI) has become the cornerstone of technological innovation, an intriguing question emerges for every researcher, technologist and even for cutting-edge companies: Could analogue computing be the master key that unlocks a new horizon in machine learning? </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 - Angel Nerozzi - All rights reserved. </p>
+    </footer>
+
+</body>
+</html>
