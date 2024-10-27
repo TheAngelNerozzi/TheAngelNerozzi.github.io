@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Angel Nerozzi </title> 
+     <link rel="icon" href="AN.ico   " type="image/ico"> 
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #f5f5f5;
+            padding: 1em 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            font-weight: 300;
+        }
+        nav {
+            background-color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 1em;
+            font-weight: 300;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+            font-weight: 400;
+        }
+        p {
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        footer {
+            background-color: #f5f5f5;
+            color: #555;
+            text-align: center;
+            padding: 1em 0;
+            position: auto;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #eee; 
+             } 
+            footer img {
+                  width: 30px; /* Ajusta el tamaño de los iconos a tu gusto */
+                  height: auto;
+                } 
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1> Angel Nerozzi </h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Talks</a>
+        <a href="aboutme.html"> About me</a>
+
+    </nav>
+
+    <main>
+        <article>
+            <h2> The quantum promise: An unhackable network and the key to the future? </h2> 
+
+             <p> Published on <time datetime="2024-08/03"> 26 October 2024 </time> to <time datetime="20:00">8:47 P.M </time></p>
+
+            <p> We live in the information age, where our data has become an invaluable resource. However, this digital wealth comes with an inherent vulnerability: data breaches. Against this backdrop, quantum computing emerges as a possible solution, promising not only unprecedented security, but also a scientific revolution with implications that we are only beginning to understand. In this article, we explore the potential of quantum technology to build an unhackable network and its impact on the future of science and geopolitics. </p> 
+
+ <h3> The constant threat of leaks: </h3>
+
+<p> Data breaches are a worrying reality. From attacks on large corporations to breaches of individual privacy, information security is constantly being challenged. Current encryption methods, based on mathematical complexity, are becoming increasingly vulnerable to increases in computing power, especially with the imminent advent of large-scale quantum computing.</p> 
+
+<h3> Quantum cryptography: an unbreakable shield (in theory): </h3>  
+
+<p> Quantum cryptography offers a radically different solution. Instead of relying on mathematical algorithms, it relies on the fundamental laws of quantum physics, in particular the Heisenberg uncertainty principle and quantum entanglement. Any attempt to intercept or copy information transmitted through a quantum network would inevitably alter the state of the photons, alerting the communicating parties to the intrusion. In theory, this creates an unhackable communication system. </p>  
+
+<h3> Nanosatellites and the global quantum network: </h3>
+
+ <p> Building a global quantum network is a major technological challenge. One of the most promising proposals involves the use of nanosatellites equipped with ‘photon grabbers’ to create a network of quantum signals around the world. These satellites, smaller and cheaper than traditional satellites, could facilitate the implementation of a global quantum network more quickly and efficiently. However, significant technological challenges remain, such as the generation and transmission of entangled photons over long distances and the miniaturisation of quantum technology for use in nanosatellites. </p>  
+
+<h4> Beyond security: the scientific potential of quantum technology: </h4>
+
+<p> Quantum computing promises not only an unhackable network, but also an exponential leap in information processing power. This opens the door to unprecedented scientific breakthroughs in fields such as medicine, materials science and fundamental research. We will be able to simulate complex systems at the atomic level, design new drugs with molecular precision, and explore the universe at a depth never before imagined. </p> 
+
+<h4> The quantum race and geopolitics: </h4>  
+
+ <h4> The development of quantum technology has become a strategic priority for many countries. The nation that masters this technology will have a significant advantage in terms of national security, economic development and scientific leadership. This ‘quantum race’ has the potential to redefine the global balance of power in the 21st century. </h4> 
+
+    <h4> A better tomorrow? </h4>
+
+<p> Quantum technology is still in its early stages, but its potential is undeniable. While the promise of an unhackable network is attractive, the technical challenges are considerable. However, research progress is steady and the possibility of a quantum revolution in science and technology is drawing ever closer. It is crucial that the scientific community, governments and society at large work together to ensure that this powerful technology is developed responsibly and for the benefit of all humanity.</p> 
+
+     <h2> Thanks for reading </h2> 
+
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 - Angel Nerozzi - All rights reserved. </p> 
+         <a href="https://github.com/TheAngelNerozzi" target="blank">
+              <img src="images/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/angel-nerozzi-88892a291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target=" ">
+        <img src="images/linkedin.png" alt="LinkedIn">
+            </a> 
+    </footer>
+
+</body>
+</html>
